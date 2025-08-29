@@ -1,7 +1,5 @@
 # Análisis Comparativo de Modelos para Clasificación de Emociones en EmoEvent
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/[URL_A_TU_NOTEBOOK_EN_GITHUB])
-
 ## 1. Descripción del Proyecto
 
 Este repositorio contiene el notebook y los resultados del proyecto final sobre clasificación de emociones en texto. El objetivo es realizar un estudio exploratorio y comparativo de tres paradigmas distintos de Procesamiento de Lenguaje Natural (NLP) para determinar su eficacia en el dataset **EmoEvent**.
