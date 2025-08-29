@@ -33,17 +33,15 @@ El flujo de trabajo seguido en el notebook es el siguiente:
 - Un token de acceso de Hugging Face con permisos de lectura.
 
 ### Configuración del Entorno
-1.  **Clonar el Repositorio (Opcional):**
-    ```bash
-    git clone [URL_DE_TU_REPO]
-    ```
-2.  **Abrir en Google Colab:** Haz clic en el badge "Open In Colab" al inicio de este README o abre el archivo `Clasificacion_Emociones_EmoEvent.ipynb` directamente en Colab.
+1.  **Descargar el notebook**
+2.  
+3.  **Abrir en Google Colab**
 
-3.  **Configurar el Acelerador de Hardware:**
+4.  **Configurar el Acelerador de Hardware:**
     - En el menú de Colab, ve a `Entorno de ejecución` -> `Cambiar tipo de entorno de ejecución`.
     - Selecciona **GPU** (T4 o superior) como acelerador de hardware.
 
-4.  **Configurar el Token de Hugging Face:**
+5.  **Configurar el Token de Hugging Face:**
     - En el panel izquierdo de Colab, haz clic en el ícono de la llave (🔑) para acceder a los "Secrets".
     - Crea un nuevo secret con el nombre `HF_TOKEN`.
     - Pega tu token de acceso de Hugging Face como valor.
