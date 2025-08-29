@@ -34,14 +34,13 @@ El flujo de trabajo seguido en el notebook es el siguiente:
 
 ### Configuración del Entorno
 1.  **Descargar el notebook**
-2.  
-3.  **Abrir en Google Colab**
+2.  **Abrir en Google Colab**
 
-4.  **Configurar el Acelerador de Hardware:**
+3.  **Configurar el Acelerador de Hardware:**
     - En el menú de Colab, ve a `Entorno de ejecución` -> `Cambiar tipo de entorno de ejecución`.
     - Selecciona **GPU** (T4 o superior) como acelerador de hardware.
 
-5.  **Configurar el Token de Hugging Face:**
+4.  **Configurar el Token de Hugging Face:**
     - En el panel izquierdo de Colab, haz clic en el ícono de la llave (🔑) para acceder a los "Secrets".
     - Crea un nuevo secret con el nombre `HF_TOKEN`.
     - Pega tu token de acceso de Hugging Face como valor.
